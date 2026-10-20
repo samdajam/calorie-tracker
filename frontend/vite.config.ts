@@ -11,9 +11,9 @@ export default defineConfig(({ mode }) => {
       },
       server: {
         proxy: {
-          //Target your Node.js backend
-          '/api-proxy': 'http://localhost:5000',
-          '/ws-proxy': {target: 'ws://localhost:5000', ws: true},
+          //Target your Node.js backend via Vercel service binding (BACKEND_URL) with localhost fallback for local dev
+          '/api-proxy': process.env.BACKEND_URL || 'http://localhost:5000',
+          '/ws-proxy': {target: process.env.BACKEND_URL?.replace(/^https?:\/\//, 'ws://') || 'ws://localhost:5000', ws: true},
         },
       },
       plugins: react(),
