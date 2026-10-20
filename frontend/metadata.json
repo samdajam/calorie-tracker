@@ -1,0 +1,7 @@
+{
+  "name": "NutriPlan - Daily Meal & Calorie Planner",
+  "description": "An intelligent daily meal planner, macro and calorie tracker, featuring AI personalized meal generation, Gemini Vision photo food & receipt logging, instant nutrition estimation, grocery list auto-generation, and TDEE calculator.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
