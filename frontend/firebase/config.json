@@ -1,0 +1,11 @@
+{
+  "webAppConfig": {
+    "projectId": "project-f10982b3-de00-458c-93c",
+    "appId": "1:675159806551:web:e3cafb4a7b48ce59330912",
+    "apiKey": "AIzaSyARRa34Hd7QShBfGOJNQF8ynEFZ82nP2N4",
+    "authDomain": "project-f10982b3-de00-458c-93c.firebaseapp.com",
+    "storageBucket": "project-f10982b3-de00-458c-93c.firebasestorage.app",
+    "messagingSenderId": "675159806551"
+  },
+  "databaseId": "daily-meal-planner-5db6c"
+}
